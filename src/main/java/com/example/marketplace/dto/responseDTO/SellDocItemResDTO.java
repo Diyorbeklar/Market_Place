@@ -1,17 +1,18 @@
 package com.example.marketplace.dto.responseDTO;
 
+import com.example.marketplace.entity.StoreProduct;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-
-import java.time.LocalDate;
 
 @Builder
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @AllArgsConstructor
 @NoArgsConstructor
-public class ReturnDocResDTO {
+public class SellDocItemResDTO {
     Long id;
-    String docNumber;
-    LocalDate data;
+    SellDocResDTO sellDocResDTO;
+    StoreProduct storeProductResDTO;
+    Long count;
+    Long price;
 }

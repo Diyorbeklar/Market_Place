@@ -15,11 +15,10 @@ import java.time.LocalDate;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @AllArgsConstructor
 @NoArgsConstructor
-public class ReturnDoc {
+public class ReturnWarwDoc {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     String docNumber;
     LocalDate data;
 }
-

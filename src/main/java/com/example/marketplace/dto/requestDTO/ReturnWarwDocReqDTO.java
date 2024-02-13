@@ -1,4 +1,4 @@
-package com.example.marketplace.dto.responseDTO;
+package com.example.marketplace.dto.requestDTO;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @AllArgsConstructor
 @NoArgsConstructor
-public class ReturnDocResDTO {
+public class ReturnWarwDocReqDTO {
     Long id;
     String docNumber;
     LocalDate data;

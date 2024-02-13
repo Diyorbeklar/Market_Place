@@ -10,8 +10,8 @@ import java.time.LocalDate;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @AllArgsConstructor
 @NoArgsConstructor
-public class ReturnDocResDTO {
+public class SellDocResDTO {
     Long id;
     String docNumber;
-    LocalDate data;
+    LocalDate date;
 }
